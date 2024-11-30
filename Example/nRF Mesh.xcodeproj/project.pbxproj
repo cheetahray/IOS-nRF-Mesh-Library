@@ -161,7 +161,6 @@
 		52E54CE72345EDA700478F05 /* GenericState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E54CE62345EDA700478F05 /* GenericState.swift */; };
 		52F6AD6C22B78F3000F0D7DF /* CompositionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6AD6B22B78F3000F0D7DF /* CompositionData.swift */; };
 		52F6AD7622BA612900F0D7DF /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6AD7522BA612900F0D7DF /* UIViewController+Toast.swift */; };
-		582D3427AEC67A6269423CFA /* Pods_nRF_Mesh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57EEAABA13E16EBDF1CADFD /* Pods_nRF_Mesh_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -170,7 +169,10 @@
 		A7A59BD92773218C0045A8ED /* GenericPowerOnOffClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A59BD82773218C0045A8ED /* GenericPowerOnOffClientDelegate.swift */; };
 		A7B526A7277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B526A5277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift */; };
 		A7B526A8277B210000F5C60D /* GenericPowerOnOffSetup.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B526A6277B210000F5C60D /* GenericPowerOnOffSetup.xib */; };
-		C5D0E3889048D952B61974DA /* Pods_nRF_Mesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E003FABAE6DD367FEC93B5 /* Pods_nRF_Mesh.framework */; };
+		D9AD5A172CBACF7100F6E86C /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AD5A162CBACF7100F6E86C /* CryptoSwift.framework */; };
+		D9AD5A192CBACF7C00F6E86C /* NordicMesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AD5A182CBACF7C00F6E86C /* NordicMesh.framework */; };
+		D9AD5A1B2CBACF8600F6E86C /* Pods_nRF_Mesh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AD5A1A2CBACF8600F6E86C /* Pods_nRF_Mesh_Tests.framework */; };
+		D9AD5A1D2CBACF9200F6E86C /* Pods_nRF_Mesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AD5A1C2CBACF9200F6E86C /* Pods_nRF_Mesh.framework */; };
 		F03414832B912F95009DD792 /* LightLCModeGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03414822B912F95009DD792 /* LightLCModeGroupCell.swift */; };
 		F03414852B9131BA009DD792 /* LightLCOccupancyModeGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03414842B9131BA009DD792 /* LightLCOccupancyModeGroupCell.swift */; };
 		F03414872B91373E009DD792 /* LightLCLightOnOffGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03414862B91373E009DD792 /* LightLCLightOnOffGroupCell.swift */; };
@@ -207,7 +209,6 @@
 		2A5BED1139337A6A368C8D2E /* Pods-nRF Mesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRF Mesh.release.xcconfig"; path = "Target Support Files/Pods-nRF Mesh/Pods-nRF Mesh.release.xcconfig"; sourceTree = "<group>"; };
 		3089BC9F2099CA4900E30192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3440420687768FA73DB8A905 /* Pods-nRF Mesh Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRF Mesh Tests.debug.xcconfig"; path = "Target Support Files/Pods-nRF Mesh Tests/Pods-nRF Mesh Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		41E003FABAE6DD367FEC93B5 /* Pods_nRF_Mesh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nRF_Mesh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4973E9CDA09CE2398E5C269A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4A1A469C2CCA6F730EFD3B60 /* Pods-nRF Mesh Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRF Mesh Tests.release.xcconfig"; path = "Target Support Files/Pods-nRF Mesh Tests/Pods-nRF Mesh Tests.release.xcconfig"; sourceTree = "<group>"; };
 		520A7D6624F3E05A00BF370A /* RightActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightActionCell.swift; sourceTree = "<group>"; };
@@ -379,6 +380,10 @@
 		A7B526A5277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPowerOnOffSetupViewCell.swift; sourceTree = "<group>"; };
 		A7B526A6277B210000F5C60D /* GenericPowerOnOffSetup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenericPowerOnOffSetup.xib; sourceTree = "<group>"; };
 		C775BBAAAC42952ED786BABF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D9AD5A162CBACF7100F6E86C /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = "build/Debug-iphoneos/CryptoSwift/CryptoSwift.framework"; sourceTree = "<group>"; };
+		D9AD5A182CBACF7C00F6E86C /* NordicMesh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NordicMesh.framework; path = "build/Debug-iphoneos/nRFMeshProvision/NordicMesh.framework"; sourceTree = "<group>"; };
+		D9AD5A1A2CBACF8600F6E86C /* Pods_nRF_Mesh_Tests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_nRF_Mesh_Tests.framework; path = "build/Debug-iphoneos/Pods_nRF_Mesh_Tests.framework"; sourceTree = "<group>"; };
+		D9AD5A1C2CBACF9200F6E86C /* Pods_nRF_Mesh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_nRF_Mesh.framework; path = "build/Debug-iphoneos/Pods_nRF_Mesh.framework"; sourceTree = "<group>"; };
 		E7CB7DCE18F6E38D2240310F /* nRFMeshProvision.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nRFMeshProvision.podspec; path = ../nRFMeshProvision.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F03414822B912F95009DD792 /* LightLCModeGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLCModeGroupCell.swift; sourceTree = "<group>"; };
 		F03414842B9131BA009DD792 /* LightLCOccupancyModeGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLCOccupancyModeGroupCell.swift; sourceTree = "<group>"; };
@@ -401,7 +406,6 @@
 		F0FB18F52B8E90CF00683C3F /* LightLCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLCViewCell.swift; sourceTree = "<group>"; };
 		F0FB18F62B8E90CF00683C3F /* LightLC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LightLC.xib; sourceTree = "<group>"; };
 		F0FB18F92B8E919C00683C3F /* LightLCClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLCClientDelegate.swift; sourceTree = "<group>"; };
-		F57EEAABA13E16EBDF1CADFD /* Pods_nRF_Mesh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nRF_Mesh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,7 +413,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D0E3889048D952B61974DA /* Pods_nRF_Mesh.framework in Frameworks */,
+				D9AD5A192CBACF7C00F6E86C /* NordicMesh.framework in Frameworks */,
+				D9AD5A1B2CBACF8600F6E86C /* Pods_nRF_Mesh_Tests.framework in Frameworks */,
+				D9AD5A1D2CBACF9200F6E86C /* Pods_nRF_Mesh.framework in Frameworks */,
+				D9AD5A172CBACF7100F6E86C /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -893,8 +900,10 @@
 		A72E2CBB996F7060344B8463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				41E003FABAE6DD367FEC93B5 /* Pods_nRF_Mesh.framework */,
-				F57EEAABA13E16EBDF1CADFD /* Pods_nRF_Mesh_Tests.framework */,
+				D9AD5A1C2CBACF9200F6E86C /* Pods_nRF_Mesh.framework */,
+				D9AD5A1A2CBACF8600F6E86C /* Pods_nRF_Mesh_Tests.framework */,
+				D9AD5A182CBACF7C00F6E86C /* NordicMesh.framework */,
+				D9AD5A162CBACF7100F6E86C /* CryptoSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1004,7 +1013,6 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = P3R8YQEV4L;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -1095,7 +1103,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    echo \"Run swiftlint\"\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "if which swiftlint >/dev/null; then\n    echo \"Run swiftlint\"\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		6F2CB43290BD6456CC7529D0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1581,9 +1589,17 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = "nRF Mesh.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 4P5Q2B3YQB;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CryptoSwift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/nRFMeshProvision",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "nRF Mesh";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -1597,8 +1613,9 @@
 				MARKETING_VERSION = 4.2.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.nordicsemi.nRFProvisioner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -1614,9 +1631,17 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = "nRF Mesh.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 4P5Q2B3YQB;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CryptoSwift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/nRFMeshProvision",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "nRF Mesh";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -1630,8 +1655,9 @@
 				MARKETING_VERSION = 4.2.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.nordicsemi.nRFProvisioner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;

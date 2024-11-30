@@ -29,6 +29,7 @@
 */
 
 import NordicMesh
+import UIKit
 
 enum MeshTaskStatus {
     case pending

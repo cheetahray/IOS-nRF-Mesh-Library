@@ -29,6 +29,7 @@
 */
 
 import NordicMesh
+import UIKit
 
 enum MeshTask {
     case getCompositionData(page: UInt8)
